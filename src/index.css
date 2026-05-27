@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.footer-link{
+  text-decoration: none;
+  margin-bottom:1rem;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: flex-end;
+}
+.nithinimg{
+  border-radius: 50%;
+  width: 50%;
+}
+a{
+  text-decoration: none;
+}
+.price-link{
+  margin-bottom: 15px;
+  color: rgb(38, 137, 243);
+}
+.support-link{
+  color:white;
+  text-decoration: underline;
+  margin-right: 10px;
+}
