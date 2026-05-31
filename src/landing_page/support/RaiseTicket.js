@@ -5,7 +5,7 @@ export default function RaiseTicket(){
         <div className='container'>
             <div className='row'>
                 <h1 className='my-5 fs-3 '>To create a Ticket, Select relevent topic.</h1>
-                <div className='col'>
+                <div className='col-sm'>
                         <p className='mb-5 fs-5'>⊕ Account Opening</p>
                         <a href='' className='price-link d-block '>Open demat account</a>
                         
@@ -22,7 +22,7 @@ export default function RaiseTicket(){
                         <a href='' className='price-link d-block '>Fund transfer</a>
                         
                     </div>
-                    <div className='col'>
+                    <div className='col-sm'>
                         <p className='mb-5 fs-5'>
                             <i className="fa fa-user" style={{marginRight:'8px'}} aria-hidden="true"></i>
                             Your Zerodha Account
@@ -38,7 +38,7 @@ export default function RaiseTicket(){
                         <a href='' className='price-link d-block '>Bulletin</a>
                         
                     </div>
-                    <div className='col'>
+                    <div className='col-sm'>
                         <p className='mb-5 fs-5'>
                             <i className="fa fa-calculator" style={{marginRight:'8px'}} aria-hidden="true"></i>
                             Your Zerodha Account
@@ -63,7 +63,7 @@ export default function RaiseTicket(){
                 </div>
 
                 <div className='row my-5'>
-                    <div className='col'>
+                    <div className='col-sm'>
                             <p className='mb-5 fs-5'>
                                 <i className="fa fa-credit-card" style={{marginRight:'8px'}} aria-hidden="true"></i>
                                 Funds
@@ -85,7 +85,7 @@ export default function RaiseTicket(){
                             <a href='' className='price-link d-block '>MTF</a>
                             
                         </div>
-                        <div className='col'>
+                        <div className='col-sm'>
                             <p className='mb-5 fs-5'>
                                 <i className="fa fa-circle-o-notch" style={{marginRight:'8px'}} aria-hidden="true"></i>
                                 Console
@@ -107,7 +107,7 @@ export default function RaiseTicket(){
                             <a href='' className='price-link d-block '>Downloads</a>
                             
                         </div>
-                        <div className='col'>
+                        <div className='col-sm'>
                             <p className='mb-5 fs-5'>
                                 <i className="fa fa-circle-thin" style={{marginRight:'8px'}} aria-hidden="true"></i>
                                 Coin

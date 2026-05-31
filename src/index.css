@@ -37,3 +37,10 @@ a{
   text-decoration: underline;
   margin-right: 10px;
 }
+
+.award-img{
+  width: 100%;
+}
+.collapse-menu{
+  justify-content: end;
+}

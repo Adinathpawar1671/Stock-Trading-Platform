@@ -3,8 +3,8 @@ import React from 'react'
 export default function Stats(){
     return(
         <div className='container mt-5 p-3'>
-            <div className='row p-5'>
-                <div className='col-6 p-5'>
+            <div className='row p-lg-5'>
+                <div className='col-md-6 col-sm-12'>
                     <h1 className='fs-2 mb-5'>Trust with confidence</h1>
                     <h2 className='fs-4'>Unbeatable pricing</h2>
                     <p className='text-muted'>Zero charges for equity & mutual fund investments. Flat ₹20 fees for intraday and F&O trades.</p>
@@ -15,7 +15,7 @@ export default function Stats(){
                     <h2 className='fs-4'>The Zerodha universe</h2>
                     <p className='text-muted'>More than just an app — gain free access to the entire ecosystem of our partner products.</p>
                 </div>
-                <div className='col-6 p-5'>
+                <div className='col-md-6 col-sm-12 '>
                     <img src='/images/ecosystem.png' alt="ecoSystem image" style={{width:'95%'}}></img>
                     <div>
                         <a href='#' className='mx-5' style={{textDecoration:"none"}}>Explore our Products →

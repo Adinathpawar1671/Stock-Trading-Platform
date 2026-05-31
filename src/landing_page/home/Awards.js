@@ -2,17 +2,17 @@ import React from 'react'
 
 export default function Awards(){
     return(
-        <div className='container p-5 mt-5'>
-            <div className="row p-5">
-                <div className='col'>
-                    <img src='images/largestBroker.svg' alt='broker image'></img>
+        <div className='container p-md-5 mt-5 '>
+            <div className="row p-lg-5">
+                <div className='col-md-6 col-sm-12 mt-sm-5'>
+                    <img src='images/largestBroker.svg' alt='broker image' className='award-img'></img>
                 </div>
-                <div className='col-6 mt-md-5'>
+                <div className='col-md-6 col-sm-12 mt-5'>
                     <h1>Largest Stock Broker in India</h1>
                     <p>2+ million zerodha client contributed to over 15% of all retail volumes in india daily by trading and investing in :</p>
 
                     <div className='row mt-5'>
-                        <div className='col'>
+                        <div className='col-lg-6' >
                         <ul>
                             <li>
                                 <p>Future and Option</p>
@@ -25,7 +25,7 @@ export default function Awards(){
                             </li>
                         </ul>
                         </div>
-                        <div className='col-6'>
+                        <div className='col-lg-6 col-sm-12'>
                             <ul>
                             <li>
                                 <p>Stocks and IPOs</p>

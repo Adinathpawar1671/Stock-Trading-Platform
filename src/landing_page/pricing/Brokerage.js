@@ -3,9 +3,9 @@ import React from 'react';
 export default function Brokerage(){
     return(
         <div className='container'>
-            <div className='row p-5'>
-                <div className='col-8 p-5'>
-                    <a href='' className='text-center '><h5>Brokerage</h5></a>
+            <div className='row p-md-5'>
+                <div className='col-md-8 p-md-5 mt-5 mt-md-0'>
+                    <a href='' className='text-center'><h5>Brokerage</h5></a>
                     <ul className='text-muted'>
                         <li className='mb-3 mt-4'>Call and trade & RMS auto squareOff: Additional charges of ₹50 + GST per order.
                         </li>
@@ -17,7 +17,7 @@ export default function Brokerage(){
 
                     </ul>
                 </div>
-                <div className='col-4 p-5'>
+                <div className='col-md-4 p-md-5'>
                    <a href=''  className='text-center'><h5>List of Charges</h5></a> 
                 </div>
 

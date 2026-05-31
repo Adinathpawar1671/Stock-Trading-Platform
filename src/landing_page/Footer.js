@@ -5,7 +5,7 @@ export default function Footer(){
     <footer className=' border-top'style={{backgroundColor:"#02020209"}}>
         <div className='container' >
             <div className='row mt-4'>
-                <div className='col'>
+                <div className='col-md'>
                     <div className='row'>
                     <img src='images/logo.svg' alt='logo' style={{width:'50%'}}></img>
                     <p>© 2010 - 2026, Zerodha Broking Ltd.All rights reserved.</p>
@@ -22,7 +22,7 @@ export default function Footer(){
                         <a href=''></a>
                     </div>
                 </div>
-                <div className='col'>
+                <div className='col-md'>
                     <p>Account</p>
                     <a href='' className='text-muted text-decoration-none d-block  footer-link'>Open demat account</a>
                     
@@ -41,7 +41,7 @@ export default function Footer(){
                     <a href='' className='text-muted text-decoration-none d-block  footer-link'>MTF</a>
                     
                 </div>
-                <div className='col'>
+                <div className='col-md'>
                     <p>Support</p>
                     <a href='' className='text-muted text-decoration-none d-block  footer-link'>Contact us</a>
                     
@@ -60,7 +60,7 @@ export default function Footer(){
                     <a href='' className='text-muted text-decoration-none d-block  footer-link'>Downloads</a>
                     
                 </div>
-                <div className='col'>
+                <div className='col-md'>
                     <p>Company</p>
                      <a href='' className='text-muted text-decoration-none d-block  footer-link'>About</a>
                      
@@ -79,7 +79,7 @@ export default function Footer(){
                     <a href='' className='text-muted text-decoration-none d-block  footer-link'>Referral program</a>
                     
                 </div>
-                <div className='col mb-2'>
+                <div className='col-md mb-2'>
                     <p>Quick Links</p>
                     <a href=''style={{textDecoration:'none'}} className='text-muted text-decoration-none d-block footer-link'>Upcoming IPOs</a>
                     
